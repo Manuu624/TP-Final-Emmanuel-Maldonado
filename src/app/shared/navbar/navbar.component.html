@@ -1,17 +1,29 @@
-<mat-toolbar color="warn">
+<div class="navbar">
+  <mat-toolbar id="navbar" color="warn">
     <button mat-icon-button routerLink="/inicio" class="example-icon" aria-label="Example icon-button with menu icon">
       <mat-icon>home</mat-icon>
     </button>
     <span class="example-spacer">Metal App</span>
+
+    <span class="espaciado2"></span>
+
+    <mat-form-field class="example-full-width" id="input">
+      <mat-label>Buscar</mat-label>
+      <input matInput placeholder="Buscar producto...">
+      
+    </mat-form-field>
   
     <span class="espaciado"></span>
 
-    <button mat-button>Productos</button>
-    
+    <button routerLink="/productos" mat-button>Productos</button>
 
+    <span class="espaciado2"></span>
+    
+    <button routerLink="/login" mat-button>Iniciar Sesión</button>
 
   
     <span class="example-spacer"></span>
 
 
   </mat-toolbar>
+</div>
