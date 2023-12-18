@@ -8,12 +8,14 @@ import { InicioComponent } from './inicio/inicio.component';
 
 //material
 import {MatCardModule} from '@angular/material/card';
-import {MatIconModule} from '@angular/material/icon'
+import {MatIconModule} from '@angular/material/icon';
+import { CardComponent } from './card/card.component'
 
 
 @NgModule({
   declarations: [
-    InicioComponent
+    InicioComponent,
+    CardComponent
   ],
   imports: [
     CommonModule,

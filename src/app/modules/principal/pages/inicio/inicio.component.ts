@@ -1,14 +1,16 @@
 import { Component } from '@angular/core';
+import { Card } from 'src/app/models/card';
 
 @Component({
   selector: 'app-inicio',
   templateUrl: './inicio.component.html',
   styleUrls: ['./inicio.component.css']
 })
+
 export class InicioComponent {
-/*
+
   // propiedad publica (tipo array)
- public datos: Albumes[];
+ public datos: Card[];
 
  // se inicia la propiedad datos
  constructor(){
@@ -30,7 +32,6 @@ export class InicioComponent {
        album: "Fear of The Dark",
        artista: "Iron Maiden",
        imagen:"https://akamai.sscdn.co/letras/360x360/albuns/4/5/f/d/204511628624872.jpg",
-       alt:""
      },
      
      {
@@ -38,35 +39,30 @@ export class InicioComponent {
        album: "Painkiller",
        artista: "Judas Priest",
        imagen:"https://upload.wikimedia.org/wikipedia/en/1/16/Judaspainkiller.JPG",
-       alt:""
      },
      {
        id: "",
        album: "Agent Orange",
        artista: "Sodom",
        imagen:"https://i1.wp.com/www.scienceofnoise.net/wp-content/uploads/2019/06/468330a486e27c0026745c92e7ec1725.1000x1000x1.jpg?fit=1000%2C1000&ssl=1",
-       alt:""
      },
      {
        id: "",
        album: "Rise of Chaos",
        artista: "Accept",
        imagen:"https://upload.wikimedia.org/wikipedia/en/a/a6/Accepttheriseofchaoscdcover.png",
-       alt:""
      },
      {
        id: "",
        album: "Kings of Metal",
        artista: "Manowar",
        imagen:"https://lastfm.freetls.fastly.net/i/u/500x500/fffd80a10caa4446c4e6e0b239f076ab.jpg",
-       alt:""
      },
      {
        id: "",
        album: "Follow the Leader",
        artista: "Korn",
        imagen:"https://upload.wikimedia.org/wikipedia/en/5/52/Korn_follow_the_leader.jpg",
-       alt:""
      },
      {
        id: "",
@@ -85,7 +81,7 @@ export class InicioComponent {
    ]
  }
 
- // EVENTO DE CONSTRUCCIÓN/ INICIALIZACIÓN
+
  ngOnInit(): void{
- }*/
+ }
 }

@@ -1,21 +1,22 @@
-
-<!--
-  <div class="container">
+<div class="container">
   <div class="row">
     <h1 class="titulo1">Albumes Recomendados</h1>
     <div class="col">
       <div *ngFor="let i of datos" class="contenido">
         <mat-card class="example-card">
-          <mat-card-header> -->
+          <mat-card-header>
+
             <!-- TÍTULO -->
-            <!-- <mat-card-title class="titulo">{{i.raza}}</mat-card-title>
-          </mat-card-header> -->
+            <mat-card-title class="titulo">{{i.album}}</mat-card-title>
+          </mat-card-header>
+
           <!-- IMAGEN -->
-         <!-- <img mat-card-image src="{{i.imagen}}" alt="{{i.alt}}" width="100%">
-          <mat-card-content> -->
+          <img mat-card-image src="{{i.imagen}}" width="100%">
+          <mat-card-content>
+
             <!-- DESCRIPCIÓN -->
-           <!-- <p class="descripcion">
-              {{i.descripcion}}
+            <p class="descripcion">
+              {{i.artista}}
             </p>
           </mat-card-content>
           <mat-card-actions>
@@ -27,5 +28,3 @@
     </div>
   </div>
 </div>
-
--->
