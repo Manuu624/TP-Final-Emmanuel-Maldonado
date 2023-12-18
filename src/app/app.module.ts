@@ -11,16 +11,13 @@ import { AngularFireStorageModule } from '@angular/fire/compat/storage';
 //componentes
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './modules/auth/login/login.component';
-import { TableComponent } from './modules/admin/table/table.component';
-import { InicioComponent } from './modules/principal/pages/inicio/inicio.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
-    TableComponent,
-    InicioComponent],
+
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,

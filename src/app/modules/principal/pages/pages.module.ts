@@ -11,7 +11,6 @@ import {MatCardModule} from '@angular/material/card';
 import {MatIconModule} from '@angular/material/icon';
 import { CardComponent } from './card/card.component'
 
-
 @NgModule({
   declarations: [
     InicioComponent,
@@ -25,7 +24,8 @@ import { CardComponent } from './card/card.component'
   ],
   exports: [
     MatCardModule,
-    MatIconModule
+    MatIconModule,
+    InicioComponent
   ]
 })
 export class PagesModule { }
